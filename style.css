@@ -29,3 +29,26 @@ h1{
     cursor: white;
     text-transform: uppercase;
 }
+
+.pai {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+}
+
+nav a {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ nav a::hover {
+    color: black;
+ }
